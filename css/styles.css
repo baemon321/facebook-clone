@@ -17,7 +17,6 @@
 
 .header__left > .logo {
     height: 40px;
-    cursor: pointer;
 }
 
 .header__input {
@@ -61,7 +60,20 @@
     align-items: center;
     position: relative;
 }
-.header__right i {
+
+.header__right > .i {
+    background-color: #eff2f5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.header__right > i {
     padding: 0 30px;
     cursor: pointer;
 }
